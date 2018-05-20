@@ -153,6 +153,7 @@ class ThingPropertyString : public ThingProperty
 class ThingDevice
 {
   public:
+    boolean paired = false;
     char *name = nullptr;
     char *description = nullptr;
     ThingType type = THING;
