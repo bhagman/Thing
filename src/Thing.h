@@ -24,7 +24,11 @@ enum ThingType
   MULTILEVELSWITCH    = 0x02,
   BINARYSENSOR        = 0x03,
   MULTILEVELSENSOR    = 0x04,
-  SMARTPLUG           = 0x05
+  SMARTPLUG           = 0x05,
+  ONOFFLIGHT          = 0x06,
+  DIMMABLELIGHT       = 0x07,
+  ONOFFCOLORLIGHT     = 0x08,
+  DIMMABLEDCOLORLIGHT = 0x09
 };
 
 
